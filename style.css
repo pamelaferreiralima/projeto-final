@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(red,orange,yellow);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box-center{
+    background-image: url(img/art.jpeg);
+    background-repeat: no-repeat;
+    height: 55%;
+    width: 50%;
+    /* background-image: linear-gradient(blue,purple); */
+    transform: translate(68%,50%);
+}
